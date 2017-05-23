@@ -1,0 +1,29 @@
+{
+  "name": "gpio-stepper-motor",
+  "version": "1.0.0",
+  "license": "GPL-3.0",
+  "author": "Peekayy <peekayy.dev@gmail.com>",
+  "description": "Stepper motor driver using GPIOs.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:peekayy/gpio-stepper-motor.git"
+  },
+  "homepage": "https://github.com/Peekayy/gpio-stepper-motor",
+  "main": "./lib/motor.js",
+  "bugs": {
+    "url": "https://github.com/peekayy/gpio-stepper-motor/issues"
+  },
+  "scripts": {},
+  "tags": [
+    "gpio",
+    "stepper motor",
+    "Promise"
+  ],
+  "dependencies": {
+    "sysfs-gpio": "github:peekayy/sysfs-gpio"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "devDependencies": {}
+}
