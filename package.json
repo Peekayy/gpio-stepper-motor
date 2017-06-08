@@ -20,6 +20,7 @@
     "Promise"
   ],
   "dependencies": {
+    "debug": "^2.6.8",
     "sysfs-gpio": "github:peekayy/sysfs-gpio"
   },
   "engines": {
